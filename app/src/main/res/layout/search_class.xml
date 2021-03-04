@@ -46,11 +46,14 @@
         app:srcCompat="@android:drawable/ic_input_add" />
 
     <androidx.recyclerview.widget.RecyclerView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:id="@+id/class_recView"
+        android:layout_width="409dp"
+        android:layout_height="649dp"
+        android:layout_marginTop="2dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
