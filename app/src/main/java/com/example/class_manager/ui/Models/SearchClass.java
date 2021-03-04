@@ -7,9 +7,9 @@ public class SearchClass {
 
     public SearchClass() {}
 
-    public SearchClass(String name, String description, String professor) {
-        this.name = name;
+    public SearchClass(String description, String name, String professor) {
         this.description = description;
+        this.name = name;
         this.professor = professor;
     }
 
