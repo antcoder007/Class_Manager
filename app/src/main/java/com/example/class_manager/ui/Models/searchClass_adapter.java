@@ -26,7 +26,7 @@ public class searchClass_adapter extends FirebaseRecyclerAdapter<SearchClass, se
         holder.description.setText(course_model.getDescription());
         holder.name.setText(course_model.getName());
         holder.professor.setText(course_model.getProfessor());
-        //holder.img... Use this to set image for each task
+        holder.img.setImageResource(R.drawable.avatar_3);
     }
 
     @NonNull
