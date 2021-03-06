@@ -27,6 +27,25 @@
             android:parentActivityName=".ui.Models.search_class_activity"
             android:label="Class_Manager">
         </activity>
+
+        <activity
+            android:name=".ui.Models.groups_page_activity"
+            android:parentActivityName=".MainActivity"
+            android:label="Class_Manager">
+        </activity>
+
+        <activity
+            android:name=".ui.Models.todo_page_activity"
+            android:parentActivityName=".MainActivity"
+            android:label="Class_Manager">
+        </activity>
+
+        <activity
+            android:name=".ui.Models.sample_group"
+            android:parentActivityName=".MainActivity"
+            android:label="Class_Manager">
+        </activity>
+
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />

@@ -3,13 +3,11 @@ package com.example.class_manager.ui.Models;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.class_manager.MainActivity;
 import com.example.class_manager.R;
 import com.firebase.ui.database.FirebaseRecyclerOptions;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -26,7 +24,7 @@ public class search_class_activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.search_class);
+        setContentView(R.layout.search_class_activity);
 
         addClass = findViewById(R.id.actionButton_addClass);
 
